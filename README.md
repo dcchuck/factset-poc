@@ -41,6 +41,8 @@ The new services API provides an easy way to create a central state management/c
 
 ## Potential Improvements
 
+* Snap & Dock Windows w/Layout Service
+* Default window sizing
 * Pass the last context over on new view creation
 * Interface for selecting what view to update on publish
 * View for describing desktop state
