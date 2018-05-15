@@ -1,0 +1,22 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "Controller App",
+        "description": "App to control demo",
+        "url": "http://localhost:8080",
+        "uuid": "controller-app",
+        "autoShow": true,
+        "defaultWidth": 350,
+        "defaultHeight": 275,
+        "saveWindowState": false
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "beta"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Controls Factset POC",
+        "name": "Demo Controller"
+    }
+}

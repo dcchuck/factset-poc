@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Controller</title>
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+
+            h1 {
+                text-align: center;
+            }
+
+            #contexts-select-div {
+                display: block;
+                text-align: center;
+            }
+
+            .block-button {
+                margin: 10px auto 10px auto;
+                display: block;
+            }
+
+            #factset-view-type {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Controller</h1>
+        <div id="contexts-select-div">
+            Select A Context:
+            <select id="contexts-select"></select>
+        </div>
+        <button id="publish-context" class="block-button">Publish Context</button>
+        <button id="launch-yahoo" class="block-button">Launch Yahoo</button>
+        <button id="launch-factset" class="block-button">Launch FactSet</button>
+        <form id="factset-view-type">
+            <input type="radio" name="form-type" value="mf" checked>MF
+            <input type="radio" name="form-type" value="index">Index
+            <input type="radio" name="form-type" value="etf">ETF
+        </form>
+        <script src="main.js"></script>
+    </body>
+</html>
